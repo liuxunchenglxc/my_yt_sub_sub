@@ -1,8 +1,8 @@
 ---
-title: “We Captured a 12 Foot Giant in Afghanistan!” -Tim Alberino
+title: "“We Captured a 12 Foot Giant in Afghanistan!” -Tim Alberino"
 description: Youtube CiQTBOQ1dTg 转写文稿
 author: Github
-pubDatetime: 2026-06-07T13:12:11.585506
+pubDatetime: 2026-06-07T13:32:53.157787
 featured: false
 draft: false
 tags:

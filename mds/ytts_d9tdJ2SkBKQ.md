@@ -1,8 +1,8 @@
 ---
-title: A Weekend With Bob Lazar: Inside Area51's UFOs
+title: "A Weekend With Bob Lazar: Inside Area51's UFOs"
 description: Youtube d9tdJ2SkBKQ 转写文稿
 author: Github
-pubDatetime: 2026-06-07T13:23:33.933129
+pubDatetime: 2026-06-07T13:32:43.146437
 featured: false
 draft: false
 tags:

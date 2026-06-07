@@ -1,8 +1,8 @@
 ---
-title: Why The Pentagon Tried To Censor This UFO Book
+title: "Why The Pentagon Tried To Censor This UFO Book"
 description: Youtube OOr98r51Sj0 转写文稿
 author: Github
-pubDatetime: 2026-06-07T13:08:51.506018
+pubDatetime: 2026-06-07T13:31:45.702489
 featured: false
 draft: false
 tags:

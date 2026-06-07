@@ -1,8 +1,8 @@
 ---
-title: The CIA Scientist That Contacted an Alien Council
+title: "The CIA Scientist That Contacted an Alien Council"
 description: Youtube 2-GeTxXi670 转写文稿
 author: Github
-pubDatetime: 2026-06-07T13:09:21.828099
+pubDatetime: 2026-06-07T13:32:05.719728
 featured: false
 draft: false
 tags:
