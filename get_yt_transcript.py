@@ -43,7 +43,7 @@ def format_md(path):
 def merge_md(text, title, aim, tag, override=False):
     now = datetime.now()
     md = f"""---
-title: {title}
+title: "{title}"
 description: Youtube {aim} 转写文稿
 author: Github
 pubDatetime: {now.isoformat()}
@@ -95,7 +95,7 @@ def playlist_agent(url, tag, lim=10):
             json_path = get_aim_json(aim)
             text = format_md(json_path)
             
-            md_path = merge_md(text, aim_title, aim, tag, override=False)
+            md_path = merge_md(text, aim_title, aim, tag, override=True)
             res.append(md_path)
             print(f"{tag} - {aim}: {aim_title} is ok.")
             
