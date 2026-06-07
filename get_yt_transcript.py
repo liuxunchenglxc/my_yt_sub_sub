@@ -37,11 +37,11 @@ def format_md(path):
     
     return text
 
-def merge_md(text, title, id, tag, override=False):
+def merge_md(text, title, aim, tag, override=False):
     now = datetime.now()
     md = f"""---
 title: {title}
-description: Youtube {id} 转写文稿
+description: Youtube {aim} 转写文稿
 author: Github
 pubDatetime: {now.isoformat()}
 featured: false
@@ -56,7 +56,7 @@ tags:
     # 拼接内容
     content = md + text
     # 文件名
-    fname = f"ytts_{id}.md"
+    fname = f"ytts_{aim}.md"
     os.makedirs("mds", exist_ok=True)
     path = os.path.join("mds", fname)
     if not override and os.path.exists(path):
@@ -80,7 +80,7 @@ def main(args):
     json_path = get_aim_json(aim)
     text = format_md(json_path)
     
-    md_path = merge_md(text, aim_title, id, "美国炼金术", override=True)
+    md_path = merge_md(text, aim_title, aim, "美国炼金术", override=True)
         
     print("ok")
 
