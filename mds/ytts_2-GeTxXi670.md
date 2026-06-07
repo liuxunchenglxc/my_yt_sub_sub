@@ -2,7 +2,7 @@
 title: "The CIA Scientist That Contacted an Alien Council"
 description: Youtube 2-GeTxXi670 转写文稿
 author: Github
-pubDatetime: 2026-06-07T13:44:11.684947
+pubDatetime: 2026-06-07T14:34:56.479192
 featured: false
 draft: false
 tags:
