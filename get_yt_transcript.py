@@ -6,6 +6,7 @@ import argparse
 import os
 import subprocess
 from traceback import print_exc
+import time
 
 def get_aim_json(aim):
     # 指定目标路径
@@ -69,12 +70,15 @@ tags:
     return path
 
 def playlist_agent(url, tag, lim=10):
-    cp = subprocess.run(f'./yt-dlp_linux --flat-playlist -j "{url}" > {tag}.json.new', shell=True)
-    if cp.returncode == 0:
-        os.rename(f"{tag}.json.new", f"{tag}.json")
-    else:
-        os.remove(f"{tag}.json.new")
-        return None
+    if os.path.exists(f"{tag}.json"):
+        ct = os.path.getctime(f"{tag}.json")
+        if time.time() - ct > 24 * 3600:
+            cp = subprocess.run(f'./yt-dlp_linux --flat-playlist -j "{url}" > {tag}.json.new', shell=True)
+            if cp.returncode == 0:
+                os.rename(f"{tag}.json.new", f"{tag}.json")
+            else:
+                os.remove(f"{tag}.json.new")
+                return None
     # 获取目标
     with open(f"{tag}.json", "r", encoding="utf-8") as f:
         items = f.readlines()
@@ -82,17 +86,23 @@ def playlist_agent(url, tag, lim=10):
 
     res = []
     for item in items[-lim:]:
-        aim_item = json.loads(item)
-        
-        aim = aim_item["id"]
-        aim_title = aim_item["title"]
-        
-        json_path = get_aim_json(aim)
-        text = format_md(json_path)
-        
-        md_path = merge_md(text, aim_title, aim, tag, override=False)
-        res.append(md_path)
-        print(f"{tag} - {aim}: {aim_title} is ok.")
+        try:
+            aim_item = json.loads(item)
+            
+            aim = aim_item["id"]
+            aim_title = aim_item["title"]
+            
+            json_path = get_aim_json(aim)
+            text = format_md(json_path)
+            
+            md_path = merge_md(text, aim_title, aim, tag, override=False)
+            res.append(md_path)
+            print(f"{tag} - {aim}: {aim_title} is ok.")
+            
+            time.sleep(10)
+        except:
+            print(f"{tag} - {aim}: {aim_title} is NOT GOOD.")
+            time.sleep(60)
     return res
 
 def main(args):
