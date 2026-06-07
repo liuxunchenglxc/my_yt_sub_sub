@@ -38,7 +38,7 @@ def format_md(path):
     text = text.replace("[music]", "").replace(">> ", "\n\n🎙️ ")
     text = text.strip()
     if not text.startswith("🎙️ "):
-        text += "🎙️ "
+        text = "🎙️ " + text
     
     return text
 
