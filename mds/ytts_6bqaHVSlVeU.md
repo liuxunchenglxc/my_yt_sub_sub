@@ -2,7 +2,7 @@
 title: "MIT Scientist: “Your Brain Evolved To Ignore Aliens – They’re Everywhere!”"
 description: Youtube 6bqaHVSlVeU 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:53:44.842629
+pubDatetime: 2026-06-07T14:59:46.917129
 featured: false
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
 - 美国炼金术
 ---
 
-What we discovered is the probability that any sensory system has ever been shaped to see any true feature of objective reality. When you do the math, the answer is zero. Exactly zero. Well, you realize you're making a very bold claim. Embodied consciousness. Consciousness existing inside bodies is the exception to the rule. Detachment from the five senses actually allows you greater knowledge. A good example being near-death experiences.  the amount of things that we don't see in reality. We don't see electric fields. The 8 million species are just the 8 million species that it's adaptive for our survival to see. How do we then try to triangulate and figure out what true reality actually is? To date,  science cannot answer that question. There are an infinite number of alien intelligences. Our headset gives us a very, very, very tiny peak at this. And the recursive trace logic gives us a mathematical framework to begin to understand exactly how our space-time headset is built, how it can be hacked. 
+🎙️ What we discovered is the probability that any sensory system has ever been shaped to see any true feature of objective reality. When you do the math, the answer is zero. Exactly zero. Well, you realize you're making a very bold claim. Embodied consciousness. Consciousness existing inside bodies is the exception to the rule. Detachment from the five senses actually allows you greater knowledge. A good example being near-death experiences.  the amount of things that we don't see in reality. We don't see electric fields. The 8 million species are just the 8 million species that it's adaptive for our survival to see. How do we then try to triangulate and figure out what true reality actually is? To date,  science cannot answer that question. There are an infinite number of alien intelligences. Our headset gives us a very, very, very tiny peak at this. And the recursive trace logic gives us a mathematical framework to begin to understand exactly how our space-time headset is built, how it can be hacked. 
 
 🎙️ Wow. So, it's an infinite scale of consciousness.  
 
@@ -931,4 +931,4 @@ What we discovered is the probability that any sensory system has ever been shap
 
 🎙️ Alchemist, did you enjoy that? Well, here's the thing. That episode was just the tip of the iceberg. If you want the full picture, head over to the American Alchemy Magazine we just launched on Substack. That's where we deep dive into all sorts of crazy topics that we don't have time to fit into every video with weekly articles exploring all of the strange, forgotten, and conspiratorial corners of space, history, and high weirdness. So, join up today at our free or paid tiers on Substack. I am including the full link in the description of this video.  
 
-🎙️ Hey,  woo.🎙️ 
+🎙️ Hey,  woo.

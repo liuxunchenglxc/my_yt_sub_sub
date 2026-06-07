@@ -2,7 +2,7 @@
 title: "The Bizarre Alien Abduction Details The Government Will Never Disclose"
 description: Youtube QkuDvTFN7ms 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:53:14.824543
+pubDatetime: 2026-06-07T14:59:16.899967
 featured: false
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
 - 美国炼金术
 ---
 
-The Allagash Lake. We're up there for for the experience, for the pure pleasure of canoeing and being out in the wilderness. What happens when you get back to camp? Well, we looked on the other side of the lake and here's this sphere of light. And it's moving like a balloon moving very, very slowly. What the hell is that over there? When I saw the light, I noticed it had a a weird quality to it. How so? So, I looked at it through binoculars and then as soon as I got them in focus, the light went like that. Whoa. Like a lens closing in on itself. And then it was right behind us and I was like, oh Christ. We are not going to make it back. Keep going. Don't look back. And then I'm struggling to get up and I see this face  bending down to look into my eyes and they began a clinical examination of me. So, you were laying horizontally. What did the table feel like? Very sterile, an emergency  room setting in a way. What did the beings look like? A bulbous head with large eyes, no nose like  us, slit [snorts] area in the chin. Are you freaking out? Freaking out? I'm beyond freaking freaked out. Do you know if you have RH negative blood? 
+🎙️ The Allagash Lake. We're up there for for the experience, for the pure pleasure of canoeing and being out in the wilderness. What happens when you get back to camp? Well, we looked on the other side of the lake and here's this sphere of light. And it's moving like a balloon moving very, very slowly. What the hell is that over there? When I saw the light, I noticed it had a a weird quality to it. How so? So, I looked at it through binoculars and then as soon as I got them in focus, the light went like that. Whoa. Like a lens closing in on itself. And then it was right behind us and I was like, oh Christ. We are not going to make it back. Keep going. Don't look back. And then I'm struggling to get up and I see this face  bending down to look into my eyes and they began a clinical examination of me. So, you were laying horizontally. What did the table feel like? Very sterile, an emergency  room setting in a way. What did the beings look like? A bulbous head with large eyes, no nose like  us, slit [snorts] area in the chin. Are you freaking out? Freaking out? I'm beyond freaking freaked out. Do you know if you have RH negative blood? 
 
 🎙️ There you go. And then they came for me. I was terrified. He kind of like reached up in the air with his long, thin, articulated arms  and he had this thing in his hand that looked like a flattened hockey puck. And they put one on on the outside of each one of my shins, and then I couldn't move my legs. 
 
@@ -859,4 +859,4 @@ The Allagash Lake. We're up there for for the experience, for the pure pleasure 
 
 🎙️ interesting. I'd like to know. And I want to give a shout out to the great James Fox for the very generous introduction here and thank you both for your time. Well, you're very, very welcome. It's been an honor, Jess. Oh, my all mine. Head to americanalchemymarch.com to grab official American Alchemy merch and support the show directly. And while you're there, the Cowboy UFO T is a fan favorite we always keep in stock along  with the Atomic Age design. Thank you all so much for following and supporting the show. 
 
-🎙️ Woo!🎙️ 
+🎙️ Woo!

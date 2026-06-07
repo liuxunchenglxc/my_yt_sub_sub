@@ -2,7 +2,7 @@
 title: "“I Operated a UFO… It’s Not What You Think” -Army Sergeant Lyn Buchanan"
 description: Youtube 1sxmSMzqnmA 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:53:34.835505
+pubDatetime: 2026-06-07T14:59:36.910459
 featured: false
 draft: false
 tags:

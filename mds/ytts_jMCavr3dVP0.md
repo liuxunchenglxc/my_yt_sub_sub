@@ -2,7 +2,7 @@
 title: "Former NSA Director Breaks Silence on UFOs"
 description: Youtube jMCavr3dVP0 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:52:54.808788
+pubDatetime: 2026-06-07T14:58:56.885232
 featured: false
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
 - 美国炼金术
 ---
 
-Whenever you see something that doesn't fit what you know, a real scientist should get excited, not skeptical. My two guests today have credentials that are impossible to ignore. Dr. Eric Haseltine was director of research for the National Security Agency. Basically, he was the tip of the spear on science and innovation for the US's most hardcore intelligence agency. Before that, he was an executive vice president at Walt Disney Imagineering. He's a neuroscientist, a futurist, and has over 70 patents  to his name. He possibly has one of the most intriguing resumes of all time. When you look at all the many thousands of reports, and we've looked at all of them. And some I have guilty knowledge of from when I was inside the government. It's  real, and it's something we do not understand. Dr. Chris Gilbert has an MD and PhD from one of France's top medical schools. 
+🎙️ Whenever you see something that doesn't fit what you know, a real scientist should get excited, not skeptical. My two guests today have credentials that are impossible to ignore. Dr. Eric Haseltine was director of research for the National Security Agency. Basically, he was the tip of the spear on science and innovation for the US's most hardcore intelligence agency. Before that, he was an executive vice president at Walt Disney Imagineering. He's a neuroscientist, a futurist, and has over 70 patents  to his name. He possibly has one of the most intriguing resumes of all time. When you look at all the many thousands of reports, and we've looked at all of them. And some I have guilty knowledge of from when I was inside the government. It's  real, and it's something we do not understand. Dr. Chris Gilbert has an MD and PhD from one of France's top medical schools. 
 
 🎙️ She's worked with Doctors Without Borders across four different continents, and she's pioneered her own incredibly unique methods in holistic medicine. 
 
@@ -599,4 +599,4 @@ Whenever you see something that doesn't fit what you know, a real scientist shou
 
 🎙️ It's has been a lot of fun. All all my favorite topics in one, so. Great. Cool. Head to americanalchemermerch.com to grab official American Alchemy merch and support the show directly. And while you're there, the cowboy UFO T is a fan favorite we always keep in stock along with the Atomic Age design. Thank you all so much for following and supporting the show. 
 
-🎙️ Woo!🎙️ 
+🎙️ Woo!
