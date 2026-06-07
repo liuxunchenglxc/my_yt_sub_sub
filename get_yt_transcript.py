@@ -42,6 +42,7 @@ def format_md(path):
 
 def merge_md(text, title, aim, tag, override=False):
     now = datetime.now()
+    title = title.replace("\"", "\\\"")
     md = f"""---
 title: "{title}"
 description: Youtube {aim} 转写文稿
