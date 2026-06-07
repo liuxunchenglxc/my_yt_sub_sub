@@ -96,7 +96,7 @@ def playlist_agent(url, tag, lim=10):
             json_path = get_aim_json(aim)
             text = format_md(json_path)
             
-            md_path = merge_md(text, aim_title, aim, tag, override=True)
+            md_path = merge_md(text, aim_title, aim, tag, override=False)
             res.append(md_path)
             print(f"{tag} - {aim}: {aim_title} is ok.")
             
