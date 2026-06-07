@@ -39,6 +39,9 @@ jobs:
           # 此时命令直接在你的 my_general_python_env 容器内运行
           python3 -u get_yt_transcript.py --proxy_username "${{ secrets.PROXY_USERNAME }}" --proxy_password "${{ secrets.PROXY_PASSWORD }}"
       
+      - name: Delete the yt-dlp_linux executable
+        run: rm -f yt-dlp_linux
+      
       - name: Commit and Push changes
         run: |
           git config --global --add safe.directory /__w/my_yt_sub_sub/my_yt_sub_sub

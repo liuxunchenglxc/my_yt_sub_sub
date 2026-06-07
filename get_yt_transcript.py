@@ -69,7 +69,7 @@ tags:
     return path
 
 def playlist_agent(url, tag, lim=10):
-    cp = subprocess.run(f'./yt-dlp.exe --flat-playlist -j "{url}" > {tag}.json.new', shell=True)
+    cp = subprocess.run(f'./yt-dlp_linux --flat-playlist -j "{url}" > {tag}.json.new', shell=True)
     if cp.returncode == 0:
         os.rename(f"{tag}.json.new", f"{tag}.json")
     else:
