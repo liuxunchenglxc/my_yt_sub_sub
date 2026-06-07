@@ -56,3 +56,34 @@ jobs:
           else
             echo "Json is already up to date."
           fi
+
+      - name: Checkout AstroPaper Repo
+        uses: actions/checkout@v6
+        with:
+          repository: 'liuxunchenglxc/astro-paper'
+          token: ${{ secrets.ASTROPAPER_PAT }}
+          path: 'astro-paper-repo'
+      
+      - name: Copy Markdown Files
+        run: |
+          mkdir -p astro-paper-repo/src/content/posts/ytts/
+          
+          # 将源仓库根目录下的 ytts_*.md 复制到目标仓库的对应目录下
+          cp mds/ytts_*.md astro-paper-repo/src/content/posts/ytts/
+      
+      - name: Push to Target Repo
+        run: |
+          cd astro-paper-repo
+          
+          # 配置 Git 用户信息（用于提交显示）
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@://github.com"
+          
+          # 检查是否有文件变动，防止没有变动时报错
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Github Actions: Add ytts md."
+            git push origin main # 推送到目标仓库的 main 分支
+          else
+            echo "No changes to commit"
+          fi
