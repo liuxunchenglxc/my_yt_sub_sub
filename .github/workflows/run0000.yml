@@ -36,8 +36,8 @@ jobs:
           git config --global user.email "github-actions[bot]@://github.com"
           
           # 检查是否有json文件变动
-          if [ -n "$(git status --porcelain *.json)" ]; then
-            git add *.json
+          if [ -n "$(git status --porcelain)" ]; then
+            git add --all
             git commit -m "[skip ci]"
             git push
           else

@@ -1,5 +1,6 @@
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.proxies import WebshareProxyConfig
+from datetime import datetime
 import json
 import argparse
 import os
@@ -24,16 +25,62 @@ def get_aim_json(aim):
         json.dump(raw_data, f, ensure_ascii=False, indent=4)
     return path
 
+def format_md(path):
+    # 读取json
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    # 大锅烩算法
+    text = " ".join([item["text"] for item in data if item["text"] not in ["[music]", ">> [music]"]])
+    text = text.replace("[music]", "").replace(">> ", "\n\n🎙️ ")
+    text = text.strip()
+    
+    return text
+
+def merge_md(text, title, id, tag, override=False):
+    now = datetime.now()
+    md = f"""---
+title: {title}
+description: Youtube {id} 转写文稿
+author: Github
+pubDatetime: {now.isoformat()}
+featured: false
+draft: false
+tags:
+- Youtube
+- 转写文稿
+- {tag}
+---
+
+"""
+    # 拼接内容
+    content = md + text
+    # 文件名
+    fname = f"ytts_{id}.md"
+    os.makedirs("mds", exist_ok=True)
+    path = os.path.join("mds", fname)
+    if not override and os.path.exists(path):
+        return path
+    # 存储
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+    return path
 
 def main(args):
+    # https_proxy=http://127.0.0.1:7890 ./yt-dlp.exe --flat-playlist -j "https://www.youtube.com/playlist?list=PLpvZy2482-kjlxGoFLPHJFQ1lNRD_49uN" > yt_plist.json
     # 获取目标
-    with open("yt_plist.txt", "r", encoding="utf-8") as f:
-        ids = f.readlines()
-        ids = [i.strip() for i in ids]
-
-    aim = ids[1]
+    with open("yt_plist.json", "r", encoding="utf-8") as f:
+        items = f.readlines()
+        items = [i.strip() for i in items]
+    aim_item = json.loads(items[1])
     
-    get_aim_json(aim)
+    aim = aim_item["id"]
+    aim_title = aim_item["title"]
+    
+    json_path = get_aim_json(aim)
+    text = format_md(json_path)
+    
+    md_path = merge_md(text, aim_title, id, "美国炼金术", override=True)
         
     print("ok")
 
