@@ -2,7 +2,7 @@
 title: "Former NSA Director Breaks Silence on UFOs"
 description: Youtube jMCavr3dVP0 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:35:06.485359
+pubDatetime: 2026-06-07T14:52:54.808788
 featured: false
 draft: false
 tags:
@@ -599,4 +599,4 @@ Whenever you see something that doesn't fit what you know, a real scientist shou
 
 🎙️ It's has been a lot of fun. All all my favorite topics in one, so. Great. Cool. Head to americanalchemermerch.com to grab official American Alchemy merch and support the show directly. And while you're there, the cowboy UFO T is a fan favorite we always keep in stock along with the Atomic Age design. Thank you all so much for following and supporting the show. 
 
-🎙️ Woo!
+🎙️ Woo!🎙️ 

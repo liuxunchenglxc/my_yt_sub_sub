@@ -2,7 +2,7 @@
 title: "MIT Scientist: “Your Brain Evolved To Ignore Aliens – They’re Everywhere!”"
 description: Youtube 6bqaHVSlVeU 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:34:16.453520
+pubDatetime: 2026-06-07T14:53:44.842629
 featured: false
 draft: false
 tags:
@@ -931,4 +931,4 @@ What we discovered is the probability that any sensory system has ever been shap
 
 🎙️ Alchemist, did you enjoy that? Well, here's the thing. That episode was just the tip of the iceberg. If you want the full picture, head over to the American Alchemy Magazine we just launched on Substack. That's where we deep dive into all sorts of crazy topics that we don't have time to fit into every video with weekly articles exploring all of the strange, forgotten, and conspiratorial corners of space, history, and high weirdness. So, join up today at our free or paid tiers on Substack. I am including the full link in the description of this video.  
 
-🎙️ Hey,  woo.
+🎙️ Hey,  woo.🎙️ 
