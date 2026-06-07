@@ -23,6 +23,16 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+      
+      - name: Download yt-dlp
+        uses: robinraju/release-downloader@v1
+        with:
+          repository: 'yt-dlp/yt-dlp'
+          latest: true
+          fileName: 'yt-dlp_linux'
+      
+      - name: Make the yt-dlp_linux executable
+        run: chmod +x yt-dlp_linux
 
       - name: Run Python Script
         run: |

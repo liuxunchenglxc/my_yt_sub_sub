@@ -4,6 +4,8 @@ from datetime import datetime
 import json
 import argparse
 import os
+import subprocess
+from traceback import print_exc
 
 def get_aim_json(aim):
     # 指定目标路径
@@ -66,21 +68,40 @@ tags:
         f.write(content)
     return path
 
-def main(args):
-    # https_proxy=http://127.0.0.1:7890 ./yt-dlp.exe --flat-playlist -j "https://www.youtube.com/playlist?list=PLpvZy2482-kjlxGoFLPHJFQ1lNRD_49uN" > yt_plist.json
+def playlist_agent(url, tag, lim=10):
+    cp = subprocess.run(f'./yt-dlp.exe --flat-playlist -j "{url}" > {tag}.json.new', shell=True)
+    if cp.returncode == 0:
+        os.rename(f"{tag}.json.new", f"{tag}.json")
+    else:
+        os.remove(f"{tag}.json.new")
+        return None
     # 获取目标
-    with open("yt_plist.json", "r", encoding="utf-8") as f:
+    with open(f"{tag}.json", "r", encoding="utf-8") as f:
         items = f.readlines()
         items = [i.strip() for i in items]
-    aim_item = json.loads(items[1])
-    
-    aim = aim_item["id"]
-    aim_title = aim_item["title"]
-    
-    json_path = get_aim_json(aim)
-    text = format_md(json_path)
-    
-    md_path = merge_md(text, aim_title, aim, "美国炼金术", override=True)
+
+    res = []
+    for item in items[-lim:]:
+        aim_item = json.loads(item)
+        
+        aim = aim_item["id"]
+        aim_title = aim_item["title"]
+        
+        json_path = get_aim_json(aim)
+        text = format_md(json_path)
+        
+        md_path = merge_md(text, aim_title, aim, tag, override=False)
+        res.append(md_path)
+        print(f"{tag} - {aim}: {aim_title} is ok.")
+    return res
+
+def main(args):
+    url = "https://www.youtube.com/playlist?list=PLpvZy2482-kjlxGoFLPHJFQ1lNRD_49uN"
+    tag = "美国炼金术"
+    try:
+        res = playlist_agent(url, tag, lim=10)
+    except:
+        print_exc()
         
     print("ok")
 
