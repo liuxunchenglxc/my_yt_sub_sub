@@ -2,7 +2,7 @@
 title: "Why America’s Top Scientists Are Going Missing"
 description: Youtube wlsQIbpEKSM 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:35:16.489042
+pubDatetime: 2026-06-07T14:52:44.801825
 featured: false
 draft: false
 tags:
@@ -145,4 +145,4 @@ What do you call it when a retired Air Force general, one who once ran the most 
 
 🎙️ One of them is Alabama based scientist Amy Escridge. She was openly studying anti-gravity technology when she died in 2022. Her death was deemed a suicide by a self-inflicted gunshot wound, but she warned friends ahead of time that her life could be in danger. 
 
-🎙️ I don't believe that she killed herself. I I just can't because I spoke to her four hours before and she told me time and time again, I'm not going to commit suicide. I am not gonna uh have an accident. If if there's something suspicious about my death, it's because it is. If you're still watching, you're one of the first to hear about this. We just dropped a new limited merch collection. Two TE's, one off-white, one vintage black, plus hat. The design has  a timeless retro future feel. You can wear it everyday. If you've been watching the show lately, you've probably already seen me wearing it. This is a limited run, so when it's gone, it's gone. Head to americanm.com to grab the Believe drop today. And while you're there, the Cowboy UFO tea  is a fan favorite we always keep in stock along with the atomic age design. Thank you all so much for following and supporting the show. [snorts]
+🎙️ I don't believe that she killed herself. I I just can't because I spoke to her four hours before and she told me time and time again, I'm not going to commit suicide. I am not gonna uh have an accident. If if there's something suspicious about my death, it's because it is. If you're still watching, you're one of the first to hear about this. We just dropped a new limited merch collection. Two TE's, one off-white, one vintage black, plus hat. The design has  a timeless retro future feel. You can wear it everyday. If you've been watching the show lately, you've probably already seen me wearing it. This is a limited run, so when it's gone, it's gone. Head to americanm.com to grab the Believe drop today. And while you're there, the Cowboy UFO tea  is a fan favorite we always keep in stock along with the atomic age design. Thank you all so much for following and supporting the show. [snorts]🎙️ 

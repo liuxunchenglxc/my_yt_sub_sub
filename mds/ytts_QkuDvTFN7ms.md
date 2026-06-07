@@ -2,7 +2,7 @@
 title: "The Bizarre Alien Abduction Details The Government Will Never Disclose"
 description: Youtube QkuDvTFN7ms 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:34:46.469945
+pubDatetime: 2026-06-07T14:53:14.824543
 featured: false
 draft: false
 tags:
@@ -859,4 +859,4 @@ The Allagash Lake. We're up there for for the experience, for the pure pleasure 
 
 🎙️ interesting. I'd like to know. And I want to give a shout out to the great James Fox for the very generous introduction here and thank you both for your time. Well, you're very, very welcome. It's been an honor, Jess. Oh, my all mine. Head to americanalchemymarch.com to grab official American Alchemy merch and support the show directly. And while you're there, the Cowboy UFO T is a fan favorite we always keep in stock along  with the Atomic Age design. Thank you all so much for following and supporting the show. 
 
-🎙️ Woo!
+🎙️ Woo!🎙️ 

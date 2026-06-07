@@ -2,7 +2,7 @@
 title: "The CIA Scientist That Contacted an Alien Council"
 description: Youtube 2-GeTxXi670 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:34:56.479192
+pubDatetime: 2026-06-07T14:53:04.818696
 featured: false
 draft: false
 tags:
@@ -1723,4 +1723,4 @@ All these people conducting the seance were bringing in these nine maybe extrate
 
 🎙️ Head to americanalchemermerch.com to grab official American Alchemy merch and support the show directly. And while you're there, the Cowboy UFO T is a fan favorite we always keep in stock along with the Atomic Age design.  Thank you all so much for following and supporting the show. 
 
-🎙️ Woo!
+🎙️ Woo!🎙️ 

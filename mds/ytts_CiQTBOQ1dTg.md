@@ -2,7 +2,7 @@
 title: "“We Captured a 12 Foot Giant in Afghanistan!” -Tim Alberino"
 description: Youtube CiQTBOQ1dTg 转写文稿
 author: Github
-pubDatetime: 2026-06-07T14:35:36.503776
+pubDatetime: 2026-06-07T14:52:24.789178
 featured: false
 draft: false
 tags:
@@ -1971,4 +1971,4 @@ There was an age in which the gods were dwelling on earth among men and those be
 
 🎙️ Oh, thanks, man. You're awesome. Likewise. Let me get you to the airport. Let's go. 
 
-🎙️ Yeah, let's go. Let's get out of here. Woo!
+🎙️ Yeah, let's go. Let's get out of here. Woo!🎙️ 
