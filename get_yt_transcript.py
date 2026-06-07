@@ -37,6 +37,8 @@ def format_md(path):
     text = " ".join([item["text"] for item in data if item["text"] not in ["[music]", ">> [music]"]])
     text = text.replace("[music]", "").replace(">> ", "\n\n🎙️ ")
     text = text.strip()
+    if not text.startswith("🎙️ "):
+        text += "🎙️ "
     
     return text
 
@@ -85,8 +87,9 @@ def playlist_agent(url, tag, lim=10):
         items = f.readlines()
         items = [i.strip() for i in items]
 
+    items.reverse()
     res = []
-    for item in items[:lim]:
+    for item in items[-lim:]:
         try:
             aim_item = json.loads(item)
             
@@ -96,7 +99,7 @@ def playlist_agent(url, tag, lim=10):
             json_path = get_aim_json(aim)
             text = format_md(json_path)
             
-            md_path = merge_md(text, aim_title, aim, tag, override=False)
+            md_path = merge_md(text, aim_title, aim, tag, override=True)
             res.append(md_path)
             print(f"{tag} - {aim}: {aim_title} is ok.")
             
