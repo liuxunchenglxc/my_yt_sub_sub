@@ -1,0 +1,45 @@
+name: Run at 0000 UTC+8
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # 支持手动点击按钮构建
+
+permissions:
+  contents: write # 必须赋予写权限，否则无法推代码
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # 核心配置：指定该 Job 运行在你自定义的 Docker 容器中
+    container:
+      image: ghcr.io/liuxunchenglxc/my_general_python_env:latest
+      # 如果你的镜像是【私有】的，需要取消下方 credentials 的注释，并确保有权限读取镜像
+      # credentials:
+      #   username: ${{ github.actor }}
+      #   password: ${{ secrets.GITHUB_TOKEN }} # 或者使用具备 read:packages 权限的个人访问令牌 (PAT)
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Run Python Script
+        run: |
+          # 此时命令直接在你的 my_general_python_env 容器内运行
+          python3 -u get_yt_transcript.py --proxy_username "${{ secrets.PROXY_USERNAME }}" --proxy_password "${{ secrets.PROXY_PASSWORD }}"
+      
+      - name: Commit and Push changes
+        run: |
+          git config --global --add safe.directory /__w/my_yt_sub_sub/my_yt_sub_sub
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@://github.com"
+          
+          # 检查是否有json文件变动
+          if [ -n "$(git status --porcelain *.json)" ]; then
+            git add *.json
+            git commit -m "[skip ci]"
+            git push
+          else
+            echo "Json is already up to date."
+          fi
