@@ -85,7 +85,7 @@ def playlist_agent(url, tag, lim=10):
         items = [i.strip() for i in items]
 
     res = []
-    for item in items[-lim:]:
+    for item in items[:lim]:
         try:
             aim_item = json.loads(item)
             
