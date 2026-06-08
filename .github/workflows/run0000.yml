@@ -77,7 +77,7 @@ jobs:
           
           # 配置 Git 用户信息（用于提交显示）
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@://github.com"
+          git config --global user.email "liuxunchenglxc@163.com"
           
           # 检查是否有文件变动，防止没有变动时报错
           if [ -n "$(git status --porcelain)" ]; then
